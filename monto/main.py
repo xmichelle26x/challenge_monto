@@ -7,8 +7,6 @@ def pedir_salario():
             print('Error, introduce un numero')
     return valor
      
-    
-
 
 def pedir_numero():  
     while(True):
@@ -18,7 +16,6 @@ def pedir_numero():
         except ValueError:
             print('Error, introduce un numero')
     return numero
-
 
 
 def pedir_mes(): 
@@ -36,9 +33,7 @@ def pedir_mes():
       
 def calcular_cuota_por_categoria(salario):
 	while True:
-		print ("1. BUENO")
-		print ("2. MALO")
-		print ("3. REGULAR")
+		print ("1. BUENO - 2. MALO - 3. REGULAR")
 		print("Introduce un numero de categoría: ")
 		categoria = pedir_numero() 
 		cuota = 0
@@ -58,14 +53,12 @@ def calcular_cuota_por_categoria(salario):
 			print ("Introduce un numero entre 1 y 3")
 	return cuota
 
-
-
     
 def montoCrédito(cuota, meses):
     año = meses/12
     monto = cuota * (1-(1+0.15/12)**(-12*año)) / (0.15/12)
     return monto    
-    
+		    
     
 
 if __name__ == "__main__": 
