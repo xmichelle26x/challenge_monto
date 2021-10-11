@@ -37,3 +37,6 @@ Amortización: siempre FRANCESA
 Interés: 15% anual
 
 Todos los decimales ajustados a 2 dígitos
+
+## Ejemplo 
+![Ejemplo práctico](https://github.com/xmichelle26x/challenge_monto/blob/main/ejemplo/ejemplo.JPG)
