@@ -41,7 +41,7 @@ Todos los decimales ajustados a 2 dígitos
 ## Para correrlo
 ```
 git clone
-python "c:\Ruta\de\descarga\challenge_monto\monto\main.py"
+python -u "c:\Ruta\de\descarga\challenge_monto\monto\main.py"
 ```
 
 ## Ejemplo 
