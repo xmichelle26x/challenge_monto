@@ -18,7 +18,7 @@ def pedir_numero():
     return numero
 
 
-def pedir_mes(): 
+def pedir_plazo(): 
 	while(True):
 		try:
 			mes = int(input())
@@ -52,12 +52,10 @@ def calcular_cuota_por_categoria(salario):
 	return cuota
 
 
-
 def montoCrédito(cuota, meses):
     año = meses/12
     monto = cuota * (1-(1+0.15/12)**(-12*año)) / (0.15/12)
     return monto    
-		    
     
 
 if __name__ == "__main__": 
@@ -68,7 +66,7 @@ if __name__ == "__main__":
 		
 		cuota = calcular_cuota_por_categoria(salario) 
 		print("\nIngrese la cantidad de meses 12-24-36-48 meses:")
-		meses = pedir_mes()
+		meses = pedir_plazo()
 		
 		print("\n------------------------------------------------------\n")
 		
