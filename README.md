@@ -38,6 +38,12 @@ Interés: 15% anual
 
 Todos los decimales ajustados a 2 dígitos
 
+## Para correrlo
+```
+git clone
+python "c:\Ruta\de\descarga\challenge_monto\monto\main.py"
+```
+
 ## Ejemplo 
 Ejemplo práctico <br />
 ![Ejemplo práctico](https://github.com/xmichelle26x/challenge_monto/blob/main/ejemplo/ejemplo.JPG)
